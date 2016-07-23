@@ -1,6 +1,5 @@
-Simple AngularJS Credit card directive
-
-
+<h2>Simple AngularJS Credit card Logo directive</h2>
+```HTML
 <div ng-app="myApp">
  <div cc-logo ng-model="cc" css="false" label="* Card Number" ></div>
 
@@ -17,3 +16,4 @@ Usage
 Default
 
 angular.module("myApp", ["ccLogo"]);
+```
